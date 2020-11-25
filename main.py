@@ -11,7 +11,6 @@ RED = (255, 0, 0)
 screen = pygame.display.set_mode((H, W))
 # print(screen.get_rect())
 FPS = 300
-bg = pygame.image.load("bg.png").convert()
 coin = pygame.image.load("coin.png").convert()
 car = pygame.image.load("car.jpg").convert()
 knife = pygame.image.load("knife.jpg").convert()
